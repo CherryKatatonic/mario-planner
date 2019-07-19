@@ -15,6 +15,43 @@ form {
   margin-top: 60px;
 }
 
+.card {
+  border-radius: 6px;
+}
+
+.brand {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+}
+
+.project-list {
+  height: calc(100vh - 9rem);
+  overflow: auto;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+.notifications {
+  height: calc(50vh - 9rem);
+  overflow: auto;
+}
+
+.note-card {
+  background: #0000003b;
+  color: white;
+}
+
+.note-author {
+  color: #cfff4d !important;
+}
+
+.note-date {
+  color: #e4f7c8a6 !important;
+}
+
 form button, form h5 {
   margin: 20px 0;
 }
@@ -50,4 +87,22 @@ textarea.materialize-textarea:focus:not([readonly]) + label,
 input[type=email]:not(.browser-default):focus:not([readonly]) + label,
 input[type=password]:not(.browser-default):focus:not([readonly]) + label{
   color: #ec407a !important;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    height: 90%;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffffc7;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff63;
+    border-radius: 10px;
+    height: 90%;
 }
