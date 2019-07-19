@@ -5,7 +5,7 @@ import 'firebase/auth';
 
 // Firebase Config
 var fbConfig = {
-    apiKey: "AIzaSyBdzcHE6001az-PGSrk2z-WTf_6Hkc9mIA",
+    apiKey: "OMITTED",
     authDomain: "mario-planner-kg.firebaseapp.com",
     databaseURL: "https://mario-planner-kg.firebaseio.com",
     projectId: "mario-planner-kg",
